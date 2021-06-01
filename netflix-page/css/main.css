@@ -1,0 +1,132 @@
+/* DECLARACAO DE VARIAVEIS */
+:root {
+   --myRed: #E50914;
+   --myBlack: #141414;
+   --myWhite: #FFF;
+   --myGrey: #AAA;
+   
+}
+
+
+/* RESET DEFAULT VALUES - CSS */
+* {
+    box-sizing: border-box; /* Box Sizing respeitando limite da Borde Box */
+    margin: 0;  /* Zero Margin Total */
+    padding: 0; /* Zero Padding Total */
+    
+}
+
+/* BODY*/
+
+body {
+    color: var(--myWhite);
+    background: var(--myBlack);
+    font-family: 'Arial', Times, serif;
+}
+
+/* HEADER */
+
+header {
+    padding: 10px;
+}
+
+
+header .container {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+
+ }
+
+header .logo {
+    color: var(--myRed) ;
+    font-family: sans-serif;
+    font-size: 30px;
+
+ }
+header nav a {
+     text-decoration: none;
+     color: var(--myGrey);
+     margin-right: 10px;
+}
+header nav a:hover {
+    color: var(--myWhite);
+    
+}
+
+/* MAIN CONTENT */
+
+.card-principal{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../img/outsystems/outsystems-cover.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: flex-start;
+    
+}
+
+
+
+.card-principal .description {
+    margin-top: 2%;
+    margin-bottom: 50px;
+
+}
+
+.card-principal .title {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.card-principal .my-button {
+    background-color: rgba(0,0,0,.50);
+    color: var(--myWhit);
+    border: none;
+
+    font-size: 12px;
+    margin-right: 15px;
+    padding: 15px 30px;
+
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+.card-principal .my-button:hover {
+    background-color: var(--myWhite);
+    color: var(--myBlack);
+    transition: 0.8s ease all;
+
+}
+.card-principal .my-button i{
+    margin-right: 5px;
+
+}
+
+.container {
+    margin-left: 20px;
+
+}
+.card-principal .container {
+    width: 80%;
+
+}
+.box-card {
+    height: 100%;
+    width: 100%;
+
+    display: block;
+}
+
+.carousel-cards {
+    margin-top: 5px;
+}

@@ -1,0 +1,41 @@
+@media screen and (max-width: 999px) {
+    
+    .description {
+        width: 85%;
+       
+    }
+}
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-button {
+        margin-bottom: 5px;
+        width: 250px;
+        
+    }
+    
+   
+}
+@media screen and (max-width: 600px) { 
+    .item img {
+        padding: 10px;
+    }
+    .description {
+        width: 90%;
+       
+    }
+} 
+
+@media screen and (min-width: 1000px) {
+    
+    .description {
+        width: 65%;
+       
+    }
+}
+
+
+   
